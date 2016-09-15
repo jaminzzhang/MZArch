@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/jaminzzhang/MZArch.git", :tag => "#{s.version}" }
-  s.source_files  = "MZArch", "MZArch/**/*.{h,m}"
+  s.source_files  = "MZArch", "MZArch/**/*.swift"
   s.public_header_files = "MZArch/**/*.h"
   s.frameworks = "Foundation", "UIKit"
   s.dependency "SQLite.swift"
