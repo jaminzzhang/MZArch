@@ -23,13 +23,11 @@
 		ED1B9F3F1CF0646F00222EDC /* Kingfisher.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED3E421A1CC7E8F800184F49 /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED1B9F401CF0646F00222EDC /* RealmSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = ED3E421B1CC7E8F800184F49 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED1B9F411CF064DF00222EDC /* MZArch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED883D1C1C456038008763B6 /* MZArch.framework */; };
-		ED1B9F441CFA0A0700222EDC /* UserRealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1B9F431CFA0A0700222EDC /* UserRealmProvider.swift */; };
 		ED1B9F461CFA0CF200222EDC /* BaseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1B9F451CFA0CF200222EDC /* BaseObject.swift */; };
 		ED392C1B1D3BE74500D73753 /* MZNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED392C1A1D3BE74500D73753 /* MZNavigationController.swift */; };
 		ED3E41B71CC3994500184F49 /* BaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E41B61CC3994500184F49 /* BaseHandler.swift */; };
 		ED3E41B91CC399A000184F49 /* LRUCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E41B81CC399A000184F49 /* LRUCacheProvider.swift */; };
 		ED3E41BB1CC399B400184F49 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E41BA1CC399B400184F49 /* DBProvider.swift */; };
-		ED3E41BD1CC39C9600184F49 /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E41BC1CC39C9600184F49 /* RealmProvider.swift */; };
 		ED3E421C1CC7E8F800184F49 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3E42191CC7E8F800184F49 /* Alamofire.framework */; };
 		ED3E421D1CC7E8F800184F49 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3E421A1CC7E8F800184F49 /* Kingfisher.framework */; };
 		ED3E421E1CC7E8F800184F49 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3E421B1CC7E8F800184F49 /* RealmSwift.framework */; };
@@ -109,13 +107,11 @@
 		ED1245161CEB66C200AA1ED6 /* DBConnectionCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBConnectionCache.swift; sourceTree = "<group>"; };
 		ED1B9F2C1CF0487F00222EDC /* UserDefaultsDBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsDBProvider.swift; sourceTree = "<group>"; };
 		ED1B9F2F1CF061D800222EDC /* UserDefaultsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsTest.swift; sourceTree = "<group>"; };
-		ED1B9F431CFA0A0700222EDC /* UserRealmProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRealmProvider.swift; sourceTree = "<group>"; };
 		ED1B9F451CFA0CF200222EDC /* BaseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseObject.swift; sourceTree = "<group>"; };
 		ED392C1A1D3BE74500D73753 /* MZNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZNavigationController.swift; sourceTree = "<group>"; };
 		ED3E41B61CC3994500184F49 /* BaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseHandler.swift; sourceTree = "<group>"; };
 		ED3E41B81CC399A000184F49 /* LRUCacheProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCacheProvider.swift; sourceTree = "<group>"; };
 		ED3E41BA1CC399B400184F49 /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
-		ED3E41BC1CC39C9600184F49 /* RealmProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
 		ED3E42191CC7E8F800184F49 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		ED3E421A1CC7E8F800184F49 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = ../Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		ED3E421B1CC7E8F800184F49 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
@@ -289,8 +285,6 @@
 				ED1B9F2C1CF0487F00222EDC /* UserDefaultsDBProvider.swift */,
 				ED3E41BA1CC399B400184F49 /* DBProvider.swift */,
 				ED8287601CDF4C7C00567E39 /* SQLiteProvider.swift */,
-				ED3E41BC1CC39C9600184F49 /* RealmProvider.swift */,
-				ED1B9F431CFA0A0700222EDC /* UserRealmProvider.swift */,
 				ED1245161CEB66C200AA1ED6 /* DBConnectionCache.swift */,
 			);
 			path = DataProvider;
@@ -471,9 +465,7 @@
 				EDFDF0131CFA38D600F00C28 /* UIViewExtensions.swift in Sources */,
 				EDAE6F511CFB42700091F0F9 /* BaseUserHandler.swift in Sources */,
 				ED1B9F461CFA0CF200222EDC /* BaseObject.swift in Sources */,
-				ED1B9F441CFA0A0700222EDC /* UserRealmProvider.swift in Sources */,
 				ED5EA13E1CBD462300FEC873 /* Result.swift in Sources */,
-				ED3E41BD1CC39C9600184F49 /* RealmProvider.swift in Sources */,
 				ED8287641CDF4D8000567E39 /* FileUtils.swift in Sources */,
 				ED8829481CD776A60010D119 /* Request+Alamofire.swift in Sources */,
 				ED066C621CBA7C7C0028AA45 /* TaskCenter.swift in Sources */,
